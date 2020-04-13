@@ -25,6 +25,10 @@ nav{
 }
 @media (max-width:500px){
     
+    .container{
+        width: 95vw;
+    }
+    
     .nav{
         width: 100vw;
         padding: 0.1;
@@ -35,9 +39,9 @@ nav{
         padding: 0.1em;
         margin-top: 0.2em;
     }
-    button.mixitup-control-active{
-        box-shadow: 0px 0px 0px rgba(0,0,0, 0);
-        outline: none;
+    .card{
+        margin-left: 5%;
+        margin-right: 50%;
     }
 }
 
