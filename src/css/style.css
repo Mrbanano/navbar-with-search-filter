@@ -39,6 +39,14 @@ nav{
         padding: 0.1em;
         margin-top: 0.2em;
     }
+    button.mixitup-control-active{
+        outline: none;
+    }
+    
+    .card{
+        width: 90vw;
+    }
+    
     .card{
         margin-left: 5%;
         margin-right: 50%;
