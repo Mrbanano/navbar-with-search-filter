@@ -5,6 +5,8 @@ body{
 
 nav{
     text-align: center;
+    padding-bottom: 4em;
+    width: 100%;
 }
 
 .container{
@@ -12,10 +14,40 @@ nav{
     margin: 0 auto;
     text-align: center;
 }
+
+@media (max-width:800px){
+    
+    .container{
+        width: 90vw;
+        overflow-x: hidden;
+    }
+
+}
+@media (max-width:500px){
+    
+    .nav{
+        width: 100vw;
+        padding: 0.1;
+    }
+    button{
+        width: 100%;
+        border-radius:0px;
+        padding: 0.1em;
+        margin-top: 0.2em;
+    }
+    button.mixitup-control-active{
+        box-shadow: 0px 0px 0px rgba(0,0,0, 0);
+        outline: none;
+    }
+}
+
+.content{
+    display: block;
+}
 button.mixitup-control-active{
     background-color: black;
     color: white;
-    box-shadow: 0px 7px 12px rgba(0,0,0, 0.45),
+    box-shadow: 0px 7px 12px rgba(0,0,0, 0.45);
 }
 
 button{
@@ -23,8 +55,8 @@ button{
     border: none;
     background-color: white;
     color: #222;
-    padding: 10px;
-    border-radius: 2px;
+    padding: 0.4em;
+    border-radius: 10px;
     font-size: 1.5em;
     box-shadow: 0px 2px 5px rgba(0,0,0, 0.16), 0px 2px 10px rgba(0,0,0, 0.12);
     transition: all 0.4s;
@@ -40,10 +72,10 @@ button{
     height: 350px;
     text-align: center;
     color: white;
-    font-size: ;
+    font-size: 1em;
     margin-top: 1em;
-    margin-right: 1em;
-    box-shadow: 0px 2px 5px rgba(0,0,0, 0.16), 0px 2px 10px rgba(0,0,0, 0.12);
+    margin-right: 1em; 
+    box-shadow: 0px 7px 12px rgba(0,0,0, 0.45);
 }
 
 .card img{

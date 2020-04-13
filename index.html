@@ -15,35 +15,34 @@
         <nav>
             <!--data-filter selecciona uno y toggle varios-->
             <BUtton type="button" data-filter="all">Todos</BUtton>
-            <BUtton type="button" data-toggle=".admin">Administracion</BUtton>
-            <BUtton type="button" data-toggle=".game">Video Juegos</BUtton>
-            <BUtton type="button" data-toggle=".web">Desarollo Web</BUtton>
+            <BUtton type="button" data-filter=".admin">Administracion</BUtton>
+            <BUtton type="button" data-filter=".game">Video Juegos</BUtton>
+            <BUtton type="button" data-filter=".web">Desarollo Web</BUtton>
         </nav>
-        <div class="card mix game">
-            <h3>Curso de juegos</h3>
-            <img src="./src/img/temp/consola-de-videojuegos-portatil.png" alt="">
+        <div class="content">
+            <div class="card mix game">
+                <h3>Curso de juegos</h3>
+                <img src="./src/img/temp/consola-de-videojuegos-portatil.png" alt="">
+            </div>
+            <div class="card mix web">
+                <h3>Curso de paginas web</h3>
+                <img src="./src/img/temp/desarrollo-web.png" alt="">
+            </div>
+            <div class="card mix web">
+                <h3>Curso de Comercio electronico</h3>
+                <img src="./src/img/temp/supermercado.png" alt="">
+            </div>
+            <div class="card mix admin">
+                <h3>Curso administracion de servidores</h3>
+                <img src="./src/img/temp/programacion.png" alt="">
+            </div>
+            <div class="card mix admin">
+                <h3>Curso de admin de Social Media</h3>
+                <img src="./src/img/temp/telefono-inteligente.png" alt="">
+            </div>
         </div>
-        <div class="card mix web">
-            <h3>Curso de paginas web</h3>
-            <img src="./src/img/temp/desarrollo-web.png" alt="">
-        </div>
-        <div class="card mix web">
-            <h3>Curso de Comercio electronico</h3>
-            <img src="./src/img/temp/supermercado.png" alt="">
-        </div>
-        <div class="card mix admin">
-            <h3>Curso administracion de servidores</h3>
-            <img src="./src/img/temp/programacion.png" alt="">
-        </div>
-        <div class="card mix admin">
-            <h3>Curso de administracion de Social Media</h3>
-            <img src="./src/img/temp/telefono-inteligente.png" alt="">
-        </div>
-
-
         </div>
     </nav>
-
     <script src="./src/lib/filters/mixitup.min.js"></script>
     <script src="./src/js/main.js"></script>
 </body>
